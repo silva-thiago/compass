@@ -1,0 +1,85 @@
+.compass-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+img.compass {
+  height: 250px;
+  margin: 15px;
+  padding: 15px;
+  position: absolute;
+	width: 250px
+}
+
+img.compass-letter-n {
+  margin: 0 0 0 120px;
+  padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-s {
+  margin: 225px 0 0 120px;
+  padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-w {
+  margin: 115px 0 0 0;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-e {
+  margin: 115px 0 0 230px;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-nw {
+  margin: 30px 0 0 30px;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-ne {
+  margin: 35px 0 0 200px;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-sw {
+  margin: 195px 0 0 35px;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-se {
+  margin: 195px 0 0 200px;
+	padding: 15px;
+  position: absolute
+}
+
+img.compass-letter-n:hover,
+img.compass-letter-s:hover,
+img.compass-letter-w:hover,
+img.compass-letter-e:hover,
+img.compass-letter-nw:hover,
+img.compass-letter-ne:hover,
+img.compass-letter-sw:hover,
+img.compass-letter-se:hover {
+  opacity: .5
+}
+
+img.compass-letter-n:active,
+img.compass-letter-s:active,
+img.compass-letter-w:active,
+img.compass-letter-e:active,
+img.compass-letter-nw:active,
+img.compass-letter-ne:active,
+img.compass-letter-sw:active,
+img.compass-letter-se:active {
+  opacity: .75
+}
