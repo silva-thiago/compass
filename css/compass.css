@@ -10,76 +10,91 @@ img.compass {
   height: 250px;
   margin: 15px;
   padding: 15px;
-  position: absolute;
-	width: 250px
+  position: relative;
+  width: 250px;
+  z-index: 0;
 }
 
-img.compass-letter-n {
+img.compass-arrow {
+  height: 200px;
+  margin: 40px 0 0 115px;
+  padding: 15px;
+  position: absolute;
+  transition: transform 300ms ease-in-out;
+  width: auto;
+  z-index: 10;
+}
+
+img.compass-arrow:hover {
+  transform: rotate(180deg)
+}
+
+img.compass-n {
   margin: 0 0 0 120px;
   padding: 15px;
   position: absolute
 }
 
-img.compass-letter-s {
+img.compass-s {
   margin: 225px 0 0 120px;
   padding: 15px;
   position: absolute
 }
 
-img.compass-letter-w {
+img.compass-w {
   margin: 115px 0 0 0;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-e {
+img.compass-e {
   margin: 115px 0 0 230px;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-nw {
+img.compass-nw {
   margin: 30px 0 0 30px;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-ne {
+img.compass-ne {
   margin: 35px 0 0 200px;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-sw {
+img.compass-sw {
   margin: 195px 0 0 35px;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-se {
+img.compass-se {
   margin: 195px 0 0 200px;
 	padding: 15px;
   position: absolute
 }
 
-img.compass-letter-n:hover,
-img.compass-letter-s:hover,
-img.compass-letter-w:hover,
-img.compass-letter-e:hover,
-img.compass-letter-nw:hover,
-img.compass-letter-ne:hover,
-img.compass-letter-sw:hover,
-img.compass-letter-se:hover {
+img.compass-n:hover,
+img.compass-s:hover,
+img.compass-w:hover,
+img.compass-e:hover,
+img.compass-nw:hover,
+img.compass-ne:hover,
+img.compass-sw:hover,
+img.compass-se:hover {
   opacity: .5
 }
 
-img.compass-letter-n:active,
-img.compass-letter-s:active,
-img.compass-letter-w:active,
-img.compass-letter-e:active,
-img.compass-letter-nw:active,
-img.compass-letter-ne:active,
-img.compass-letter-sw:active,
-img.compass-letter-se:active {
+img.compass-n:active,
+img.compass-s:active,
+img.compass-w:active,
+img.compass-e:active,
+img.compass-nw:active,
+img.compass-ne:active,
+img.compass-sw:active,
+img.compass-se:active {
   opacity: .75
 }
