@@ -14,24 +14,25 @@
       <div class="col-12">
         <div class="compass-container">
           <div class="compass-item">
-            <img class="compass-arrow" src="img/compass-arrow.png" alt="Rosa dos ventos">
-            <img class="compass" src="img/compass-bg.png" title="Rosa dos ventos">
-            <a href="#"><img class="compass-n" src="img/compass-n.png" title="Norte"></a>
-            <a href="#"><img class="compass-s" src="img/compass-s.png" title="Sul"></a>
-            <a href="#"><img class="compass-e" src="img/compass-e.png" title="Leste"></a>
-            <a href="#"><img class="compass-w" src="img/compass-w.png" title="Oeste"></a>
-            <a href="#"><img class="compass-ne" src="img/compass-ne.png" title="Nordeste"></a>
-            <a href="#"><img class="compass-nw" src="img/compass-nw.png" title="Noroeste"></a>
-            <a href="#"><img class="compass-se" src="img/compass-se.png" title="Sudeste"></a>
-            <a href="#"><img class="compass-sw" src="img/compass-sw.png" title="Sudoeste"></a>
+            <img id="compass-arrow" class="img-responsive compass-arrow" src="img/compass-arrow.png" alt="Rosa dos ventos">
+            <img id="compass-bg" class="img-responsive compass-bg" src="img/compass-bg.png" title="Rosa dos ventos">
+            <a href="#"><img id="compass-n" class="img-responsive compass-n" src="img/compass-n.png" title="Norte" onclick="loadCompass(0)"></a>
+            <a href="#"><img id="compass-s" class="img-responsive compass-s" src="img/compass-s.png" title="Sul" onclick="loadCompass(180)"></a>
+            <a href="#"><img id="compass-e" class="img-responsive compass-e" src="img/compass-e.png" title="Leste" onclick="loadCompass(90)"></a>
+            <a href="#"><img id="compass-w" class="img-responsive compass-w" src="img/compass-w.png" title="Oeste" onclick="loadCompass(270)"></a>
+            <a href="#"><img id="compass-ne" class="img-responsive compass-ne" src="img/compass-ne.png" title="Nordeste" onclick="loadCompass(45)"></a>
+            <a href="#"><img id="compass-nw" class="img-responsive compass-nw" src="img/compass-nw.png" title="Noroeste" onclick="loadCompass(315)"></a>
+            <a href="#"><img id="compass-se" class="img-responsive compass-se" src="img/compass-se.png" title="Sudeste" onclick="loadCompass(135)"></a>
+            <a href="#"><img id="compass-sw" class="img-responsive compass-sw" src="img/compass-sw.png" title="Sudoeste" onclick="loadCompass(225)"></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script defer src="js/compass.js"></script>
 </body>
 </html>

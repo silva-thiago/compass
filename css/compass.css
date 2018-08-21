@@ -6,7 +6,7 @@
   justify-content: center
 }
 
-img.compass {
+img.compass-bg {
   height: 250px;
   margin: 50px 0 0 0;
   padding: 15px;
@@ -20,20 +20,20 @@ img.compass-arrow {
   margin: 73.5px 0 0 99px;
   padding: 15px;
   position: absolute;
-  /* transition: transform 300ms ease-in-out; */
+  transition: transform 300ms ease-in-out;
   width: auto;
   z-index: 10
 }
 
-img.compass-arrow:hover {
+/* img.compass-arrow:hover {
   animation: rotate-180deg 300ms ease-in-out 10ms 1 normal both
 }
 
 @keyframes rotate-180deg {
-  to {
+
     transform: rotateZ(180deg)
   }
-}
+} */
 
 img.compass-n {
   margin: -292.5px 0 0 97.5px;
