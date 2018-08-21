@@ -8,7 +8,7 @@
 
 img.compass {
   height: 250px;
-  margin: 15px;
+  margin: 50px 0 0 0;
   padding: 15px;
   position: relative;
   width: 250px;
@@ -17,63 +17,68 @@ img.compass {
 
 img.compass-arrow {
   height: 200px;
-  margin: 40px 0 0 115px;
+  margin: 73.5px 0 0 99px;
   padding: 15px;
   position: absolute;
-  transition: transform 300ms ease-in-out;
+  /* transition: transform 300ms ease-in-out; */
   width: auto;
-  z-index: 10;
+  z-index: 10
 }
 
 img.compass-arrow:hover {
-  /* transform: rotate(360deg) */
-  transform: rotateX('180deg')
+  animation: rotate-180deg 300ms ease-in-out 10ms 1 normal both
+}
+
+@keyframes rotate-180deg {
+  to {
+    transform: rotateZ(180deg)
+  }
 }
 
 img.compass-n {
-  margin: 0 0 0 120px;
+  margin: -292.5px 0 0 97.5px;
   padding: 15px;
   position: absolute
 }
 
 img.compass-s {
-  margin: 225px 0 0 120px;
+  margin: -24.5px 0 0 95.5px;
   padding: 15px;
   position: absolute
 }
 
 img.compass-w {
-  margin: 115px 0 0 0;
+  margin: -157.5px 0 0 -52.5px;
 	padding: 15px;
   position: absolute
 }
 
 img.compass-e {
-  margin: 115px 0 0 230px;
+  margin: -157.5px 0 0 230px;
 	padding: 15px;
   position: absolute
 }
 
 img.compass-nw {
-  margin: 30px 0 0 30px;
+  margin: -267.5px 0 0 -15px;
 	padding: 15px;
   position: absolute
 }
 
 img.compass-ne {
-  margin: 35px 0 0 200px;
+  margin: -260px 0 0 185px;
 	padding: 15px;
   position: absolute
 }
 
 img.compass-sw {
-  margin: 195px 0 0 35px;
+  margin: -65px 0 0 -12.5px;
 	padding: 15px;
   position: absolute
 }
 
 img.compass-se {
-  margin: 195px 0 0 200px;
+  margin: -65px 0 0 180px;
 	padding: 15px;
   position: absolute
 }
