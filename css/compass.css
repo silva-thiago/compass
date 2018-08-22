@@ -8,7 +8,6 @@
 .compass-item {
   height: 350px;
   margin: auto;
-  background: red;
   position: relative;
   width: 350px
 }
@@ -16,12 +15,12 @@
 img.compass-bg {
   height: 230px;
   margin: 60px;
-  position: relative;
+  position: absolute;
   width: 230px;
   z-index: 0
 }
 
-img.compass-shadow-arrow {
+/* img.compass-shadow-arrow {
   height: 225px;
   left: 157.5px;
   padding: 15px;
@@ -30,7 +29,7 @@ img.compass-shadow-arrow {
   transition: transform 300ms ease-in-out;
   width: auto;
   z-index: 5
-}
+} */
 
 img.compass-arrow {
   height: 225px;
@@ -78,18 +77,18 @@ img.compass-ne {
 }
 
 img.compass-se {
-  left: 0;
-  top: 0 
+  left: 240px;
+  top: 240px 
 }
 
 img.compass-sw {
-  left: 0;
-  top: 0 
+  left: 30px;
+  top: 240px
 }
 
 img.compass-nw {
-  left: 0;
-  top: 0 
+  left: 35px;
+  top: 20px 
 }
 
 img.compass-n,
