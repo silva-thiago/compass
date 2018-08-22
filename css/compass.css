@@ -1,25 +1,43 @@
-.compass-container {
+/* .compass-container {
   align-content: center;
   align-items: center;
-  display: flex;
   flex-direction: row;
   justify-content: center
+} */
+
+.compass-item {
+  height: 350px;
+  margin: auto;
+  background: red;
+  position: relative;
+  width: 350px
 }
 
 img.compass-bg {
-  height: 250px;
-  margin: 50px 0 0 0;
-  padding: 15px;
+  height: 230px;
+  margin: 60px;
   position: relative;
-  width: 250px;
-  z-index: 0;
+  width: 230px;
+  z-index: 0
+}
+
+img.compass-shadow-arrow {
+  height: 225px;
+  left: 157.5px;
+  padding: 15px;
+  position: absolute;
+  top: 72.5px;
+  transition: transform 300ms ease-in-out;
+  width: auto;
+  z-index: 5
 }
 
 img.compass-arrow {
-  height: 200px;
-  margin: 73.5px 0 0 99px;
+  height: 225px;
+  left: 147.5px;
   padding: 15px;
   position: absolute;
+  top: 62.5px;
   transition: transform 300ms ease-in-out;
   width: auto;
   z-index: 10
@@ -30,77 +48,80 @@ img.compass-arrow {
 }
 
 @keyframes rotate-180deg {
-
     transform: rotateZ(180deg)
   }
 } */
 
 img.compass-n {
-  margin: -292.5px 0 0 97.5px;
-  padding: 15px;
-  position: absolute
-}
-
-img.compass-s {
-  margin: -24.5px 0 0 95.5px;
-  padding: 15px;
-  position: absolute
-}
-
-img.compass-w {
-  margin: -157.5px 0 0 -52.5px;
-	padding: 15px;
-  position: absolute
+  left: 147.5px;
+  top: 0
 }
 
 img.compass-e {
-  margin: -157.5px 0 0 230px;
-	padding: 15px;
-  position: absolute
+  left: 287.5px;
+  top: 142.5px
 }
 
-img.compass-nw {
-  margin: -267.5px 0 0 -15px;
-	padding: 15px;
-  position: absolute
+img.compass-s {
+  left: 147.5px;
+  top: 287.5px
+}
+
+img.compass-w {
+  left: -10px;
+  top: 142.5px
 }
 
 img.compass-ne {
-  margin: -260px 0 0 185px;
-	padding: 15px;
-  position: absolute
-}
-
-img.compass-sw {
-  margin: -65px 0 0 -12.5px;
-	padding: 15px;
-  position: absolute
+  left: 245px;
+  top: 35px 
 }
 
 img.compass-se {
-  margin: -65px 0 0 180px;
+  left: 0;
+  top: 0 
+}
+
+img.compass-sw {
+  left: 0;
+  top: 0 
+}
+
+img.compass-nw {
+  left: 0;
+  top: 0 
+}
+
+img.compass-n,
+img.compass-e,
+img.compass-s,
+img.compass-w,
+img.compass-ne,
+img.compass-se,
+img.compass-sw,
+img.compass-nw {
 	padding: 15px;
   position: absolute
 }
 
 img.compass-n:hover,
+img.compass-e:hover,
 img.compass-s:hover,
 img.compass-w:hover,
-img.compass-e:hover,
-img.compass-nw:hover,
 img.compass-ne:hover,
+img.compass-se:hover,
 img.compass-sw:hover,
-img.compass-se:hover {
+img.compass-nw:hover {
   opacity: .5
 }
 
 img.compass-n:active,
+img.compass-e:active,
 img.compass-s:active,
 img.compass-w:active,
-img.compass-e:active,
-img.compass-nw:active,
 img.compass-ne:active,
+img.compass-se:active,
 img.compass-sw:active,
-img.compass-se:active {
+img.compass-nw:active {
   opacity: .75
 }
