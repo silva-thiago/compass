@@ -8,7 +8,6 @@
 .compass-item {
   height: 350px;
   margin: auto;
-  background: red;
   position: relative;
   width: 350px
 }
@@ -16,7 +15,7 @@
 img.compass-bg {
   height: 230px;
   margin: 60px;
-  position: relative;
+  position: absolute;
   width: 230px;
   z-index: 0
 }
@@ -78,18 +77,18 @@ img.compass-ne {
 }
 
 img.compass-se {
-  left: 0;
-  top: 0 
+  left: 240px;
+  top: 240px 
 }
 
 img.compass-sw {
-  left: 0;
-  top: 0 
+  left: 27.5px;
+  top: 240px 
 }
 
 img.compass-nw {
-  left: 0;
-  top: 0 
+  left: 27.5px;
+  top: 25px 
 }
 
 img.compass-n,
